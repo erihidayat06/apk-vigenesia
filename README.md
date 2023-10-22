@@ -1,16 +1,8 @@
-# vigenesia
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Tugas Teknologi Web Service <br>
+Membuat Aplikasi Vigenesia <br>
+<br>
+Kelompok : <br>
+Eri Hidayat (12210363) <br>
+Widodo Zakaria Sumardi (12210823) <br>
+Jonathan Sanjaya (12210294) <br>
+Azzah Rifqi Hakim (12210867) <br>
