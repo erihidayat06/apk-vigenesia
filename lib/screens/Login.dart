@@ -2,6 +2,8 @@ import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_form_builder/flutter_form_builder.dart';
 import 'package:flutter/gestures.dart';
+import 'package:vigenesia/register/register.dart';
+import 'package:vigenesia/screens/MainScreen.dart';
 
 class Login extends StatefulWidget {
   const Login({Key? key}) : super(key: key);
@@ -11,6 +13,8 @@ class Login extends StatefulWidget {
 }
 
 class _LoginState extends State<Login> {
+  TextEditingController emailController = TextEditingController();
+  TextEditingController passwordController = TextEditingController();
   @override
   Widget build(BuildContext context) {
     title:
@@ -84,7 +88,7 @@ class _LoginState extends State<Login> {
                                                 new MaterialPageRoute(
                                                     builder: (BuildContext
                                                             context) =>
-                                                        new Register()));
+                                                        new RegisterForm()));
                                           },
                                         style: TextStyle(
                                             fontWeight: FontWeight.w600,

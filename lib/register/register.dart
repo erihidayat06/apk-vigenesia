@@ -119,10 +119,12 @@ class _RegisterFormState extends State<RegisterForm> {
   Widget _tombolDaftar() {
     return Container(
       width: MediaQuery.of(context).size.width,
-      child: ElevatedButton(onPressed: (){
-        Navigator.push(context, MaterialPageRoute(builder: (context)=>Login()))
-      }, child: Text("Daftar")),
-    )
+      child: ElevatedButton(
+          onPressed: () {
+            Navigator.push(
+                context, MaterialPageRoute(builder: (context) => Login()));
+          },
+          child: Text("Daftar")),
+    );
   }
-
 }
