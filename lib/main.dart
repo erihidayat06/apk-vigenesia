@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         brightness: Brightness.light,
         primaryColor: Colors.blueGrey,
-        scaffoldBackgroundColor: Colors.white10,
+        scaffoldBackgroundColor: Color.fromARGB(255, 255, 255, 255),
       ),
       home: const Login(),
     );

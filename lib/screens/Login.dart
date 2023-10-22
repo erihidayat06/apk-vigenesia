@@ -26,7 +26,7 @@ class _LoginState extends State<Login> {
       ), //AppBar
       body: SingleChildScrollView(
           child: Container(
-              color: Colors.redAccent,
+              color: Color.fromARGB(255, 255, 255, 255),
               height: MediaQuery.of(context).size.height,
               child: Center(
                 child: Column(
