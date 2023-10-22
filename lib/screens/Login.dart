@@ -92,6 +92,20 @@ class _LoginState extends State<Login> {
                                   ],
                                 ),
                               ),
+                              SizedBox(height: 40),
+                              Container(
+                                width: MediaQuery.of(context).size.width,
+                                child: ElevatedButton(
+                                    onPressed: () {
+                                      //PINDAH KE HALAMAN SIMPLE
+                                      Navigator.push(
+                                          context,
+                                          MaterialPageRoute(
+                                              builder: (context) =>
+                                                  new MainScreen()));
+                                    },
+                                    child: Text("Sign In")),
+                              )
                             ],
                           ), //Column
                         ), //Awakhir script textfield emal //container
